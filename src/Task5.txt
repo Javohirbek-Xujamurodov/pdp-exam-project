@@ -1,0 +1,5 @@
+Future va CompletableFuture farqi
+
+Future: CompletableFuturega qaraganda ancha sodda, uni chain qilish qiyin, exception handling noqulay
+
+CompletableFuture : esa Future ning yaxshilangan turi buni chain qilish oson,async qilish oson Exceptionni boshqarish oson

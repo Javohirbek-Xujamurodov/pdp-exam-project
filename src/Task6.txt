@@ -1,0 +1,10 @@
+Thread Pool bu oldindan yaratilgan threadlar tuplami.
+xar safar yangi thread yaratmasdan bor threadlardan foydalaniladi.
+Thread Poolning qulayliklari tez ishlaydi,resurs tejaydi ,thread sonini boshqarish oson
+
+Javadagi thread poolar
+
+ newFixedThreadPool bunda threadlar soni doim bir xil
+ newCachedThreadPool bunda agar  kerak bolsa yangi thread yaratadi,bosh thread bolsa qayta ishlatadi
+ newSingleThreadExecutor
+ newScheduledThreadPool bunda kodni takroran ishlatsa boladi

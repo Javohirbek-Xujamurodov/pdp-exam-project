@@ -1,0 +1,20 @@
+ Vector - bunda  Har bir metod sinxron ishlaydi
+
+Vector<String> v = new Vector<>();
+v.add("A");
+v.add("B");
+System.out.println(v);
+
+
+
+ Collections.synchronizedList -  Oddiy ArrayList ni threadsafe qiladi. Lekin buni for da aylanish kerak
+
+List<Integer> list = Collections.synchronizedList(new ArrayList<>());
+list.add(1);
+list.add(2);
+
+synchronized (list) {
+    for (Integer x : list) {
+        System.out.println(x);
+    }
+}
